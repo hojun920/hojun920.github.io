@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <script>
+	var varUA = navigator.userAgent.toLowerCase(); //userAgent 값 얻기
+	//농형상호금융<콕뱅크> 리다이렉트_20181101
+	if (varUA.match('android') != null) { 
+		//안드로이드 일때 처리
+		window.location.replace("https://play.google.com/store/apps/details?id=nh.smart.nhcok");
+	} else if (varUA.indexOf("iphone")>-1||varUA.indexOf("ipad")>-1||varUA.indexOf("ipod")>-1) { 
+		//IOS 일때 처리
+		window.location.replace("https://itunes.apple.com/app/id1131147442");
+	} else {
+		window.location.replace("https://banking.nonghyup.com/servlet/content/ip/ne/ipne1709c.thtml");
+		//아이폰, 안드로이드 외 처리
+	}
+  </script>
+  <title></title>
+ </head>
+ <body>
+  
+ </body>
+</html>
