@@ -2,7 +2,7 @@
 
 img { max-width: 100%; margin: 0 auto; display: block; }
 
-body, .body-wrap { width: 100% !important; height: 100%; max-width:700px; background: #f8f8f8; }
+body, .body-wrap { width: 100%; height: 100%; max-width:700px; background: #f8f8f8; }
 
 a { color: #71bc37; text-decoration: none; }
 
