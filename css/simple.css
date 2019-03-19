@@ -14,11 +14,11 @@ a:hover { text-decoration: underline; }
 
 .text-left { text-align: left; }
 
-.button { display: inline-block; color: white; background: #71bc37; border: solid #71bc37; border-width: 10px 20px 8px; font-weight: bold; border-radius: 4px; }
+.button { font-size:1.3rem;  display: inline-block; color: white; background: #24CAA2; border: solid #24CAA2; border-width: 10px 20px 8px; font-weight: bold; border-radius: 4px; }
 
 .button:hover { text-decoration: none; }
 
-h1, h2, h3, h4, h5, h6 { margin-bottom: 20px; line-height: 1.25; }
+h1, h2, h3, h4, h5, h6 { margin-top: 10px; margin-bottom: 10px; line-height: 1.25; }
 
 h1 { font-size: 32px; }
 
@@ -32,7 +32,7 @@ h5 { font-size: 16px; }
 
 p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
 
-.container { display: block !important; clear: both !important; margin: 0 auto !important; max-width: 580px !important; }
+.container {background-color:#FAC090; padding: 15px 35px 15px 35px; display: block !important; clear: both !important; margin: 0 auto !important; max-width: 700px !important; }
 
 .container table { width: 100% !important; border-collapse: collapse; }
 
@@ -40,7 +40,7 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
 
 .container .masthead h1 { margin: 0 auto !important; max-width: 90%; text-transform: uppercase; }
 
-.container .content { background: white; padding: 30px 35px; }
+.container .content { background: white; padding: 20px 25px; }
 
 .container .content.footer { background: none; }
 
@@ -49,3 +49,26 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
 .container .content.footer a { color: #888; text-decoration: none; font-weight: bold; }
 
 .container .content.footer a:hover { text-decoration: underline; }
+
+.font-dart{
+      color:#24CAA2;
+    }
+    .font-gray{
+      color:#A6A6A6;
+    }
+    .font-red{
+      color:red;
+    }
+    .title{
+      padding-left:10px;
+      background-color:white;
+    }
+    .line{
+      background-color:#FAC090;
+      height:10px;
+    }
+    .step{
+      color:#24CAA2;
+      margin-left:20%;
+      text-align:left;
+    }
