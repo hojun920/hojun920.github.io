@@ -68,5 +68,6 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
       height:10px;
     }
     .step{
+      text-align: center;
       color:#24CAA2;
     }
