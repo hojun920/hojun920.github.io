@@ -2,7 +2,7 @@
 
 img { max-width: 100%; margin: 0 auto; display: block; }
 
-body, .body-wrap { width: 100% !important; height: 100%; background: #f8f8f8; }
+body, .body-wrap { width: 100% !important; height: 100%; max-width:700px; background: #f8f8f8; }
 
 a { color: #71bc37; text-decoration: none; }
 
@@ -69,6 +69,4 @@ p, ul, ol { font-size: 16px; font-weight: normal; margin-bottom: 20px; }
     }
     .step{
       color:#24CAA2;
-      margin-left:20%;
-      text-align:left;
     }
